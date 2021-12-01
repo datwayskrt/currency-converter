@@ -1,0 +1,30 @@
+.conv{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    height: 100vh;
+    background-color: #A6C9A6;
+    box-shadow: 1px 1px 1px rgb(110, 64, 235);
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+}
+.conv .xugo{
+    display: block;
+}
+
+
+select, input, option{
+    height: 50px;
+}
+input{
+    width: 10vw;
+    font-size: 20pt;
+}
+
+select, option{
+    font-size: 15pt;
+    font-weight:lighter;
+}
