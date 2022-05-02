@@ -5,7 +5,8 @@ import {
     Menu,
     Calculator,
     Historic,
-    About
+    About,
+    HowToUse
 } from '../../components'
 
 import {
@@ -30,9 +31,9 @@ const Home = () => {
                 </Header>
                 
                 <Calculator/>
+                <HowToUse/>
                 <Historic/>
-                <About/> 
-                
+                <About/>
             </Main>
         </Container>
     )

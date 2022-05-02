@@ -20,6 +20,7 @@ export const Main = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: var(--space-x);
 
     @media(max-width: 1200px){
         padding: 0 2rem;
@@ -40,7 +41,7 @@ export const Header = styled.header`
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin: var(--space-lg);
+    margin-top: var(--space-x);
 
     /* border: 2px solid red; */
 

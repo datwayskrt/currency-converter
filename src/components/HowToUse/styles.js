@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
     max-width: var(--max-width);
-    /* margin: var(--space-lg); */
+    /* margin-bottom: var(--space-xl); */
     
     /* border: 2px solid red; */
 
@@ -30,5 +30,5 @@ export const Paragraph = styled.p`
     font-size: var(--font-size-20);
     color: var(--text-color-tertiary);
     font-weight: 500;
-    margin: var(--space-unit) 0;
+    margin-top: var(--space-unit);
 `;

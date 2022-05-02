@@ -29,6 +29,10 @@ export const MoneyInput = styled.div`
     margin-top: var(--space-unit);
 
     /* border: 2px solid red; */
+
+    @media (max-width: 480px){
+        height: 60px;
+    }
 `;
 
 export const Input = styled.input`

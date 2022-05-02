@@ -2,26 +2,17 @@ import styled from "styled-components";
 import { FaExchangeAlt } from 'react-icons/fa'
 
 export const Container = styled.div`
-    /* height: 350px; */
     width: 100%;
     max-width: var(--max-width);
     background-color: #FFF;
     box-shadow: 0 8px 16px rgba(28,28,30,0.08);
     border-radius: var(--radius-small);
     padding: var(--space-x);
-
-    /* @media(max-width: 768px){
-        padding: var(--space-lg);
-    } */
+    /* margin-bottom: var(--space-xl); */
 
     @media(max-width: 480px){
         padding: var(--space-lg) var(--space-unit);
     }
-
-    /* padding-bottom: var(--space-lg); */
-
-    /* padding: var(--space-xl); */
-    /* padding-bottom: var(--space-lg); */
 `;
 
 export const Form = styled.form`

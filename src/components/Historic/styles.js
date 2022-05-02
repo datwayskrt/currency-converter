@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
     max-width: var(--max-width);
-    margin: var(--space-lg);
+    /* margin-bottom: var(--space-xl); */
+    /* margin: var(--space-lg); */
     
     /* border: 2px solid red; */
 
