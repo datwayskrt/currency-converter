@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaExchangeAlt } from 'react-icons/fa'
+// import { FaExchangeAlt } from 'react-icons/fa'
 // import { CgArrowsExchangeAlt } from 'react-icons/cg'
 
 import {
@@ -13,7 +13,8 @@ import {
     Span,
     AddNewField,
     Plus,
-    Label
+    Label,
+    ExchangeAlt
 } from './styles'
 
 import FormGroup from './FormGroup'
@@ -24,7 +25,7 @@ const Calculator = () => {
         <Form>
             <FormGroup/>
             <Reverse>
-                <FaExchangeAlt size={24} />
+                <ExchangeAlt />
                 {/* <CgArrowsExchangeAlt size={36} /> */}
             </Reverse>
             <FormGroup/>
@@ -33,8 +34,8 @@ const Calculator = () => {
         <Bottom>
             <LeftSide>
                 <SpanGroup>
-                    <Span>1.00000 USD = </Span>
-                    <Span>448.92324 </Span>
+                    <Span>1.00 USD = </Span>
+                    <Span>448.92 </Span>
                     <Span>AOA</Span>
                 </SpanGroup>
 

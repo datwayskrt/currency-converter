@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FaExchangeAlt } from 'react-icons/fa'
 
 export const Container = styled.div`
     /* height: 350px; */
@@ -7,11 +8,11 @@ export const Container = styled.div`
     background-color: #FFF;
     box-shadow: 0 8px 16px rgba(28,28,30,0.08);
     border-radius: var(--radius-small);
-    padding: var(--space-xl);
-    padding-bottom: var(--space-lg);
+    padding: var(--space-x);
+    /* padding-bottom: var(--space-lg); */
 
-    /* padding: var(--space-lg); */
-    /* padding-top: var(--space-xl); */
+    /* padding: var(--space-xl); */
+    /* padding-bottom: var(--space-lg); */
 `;
 
 export const Form = styled.form`
@@ -20,6 +21,11 @@ export const Form = styled.form`
     justify-content: space-between;
 
     /* border: 2px solid red; */
+
+    @media(max-width: 768px){
+        flex-direction: column;
+        gap: var(--space-x);
+    }
 `;
 
 export const Reverse = styled.div`
@@ -28,7 +34,7 @@ export const Reverse = styled.div`
 `;
 
 export const Bottom = styled.div`
-    margin-top: var(--space-xl);
+    margin-top: var(--space-x);
 `;
 
 export const LeftSide = styled.div`
@@ -60,7 +66,8 @@ export const Plus = styled.div`
     width: 28px;
     height: 28px;
     color: #FAFAFA;
-    border-radius: 50px;
+    border-radius: 4px;
+    /* border-radius: 50px; */
 
     display: flex;
     justify-content: center;
@@ -80,5 +87,14 @@ export const Label = styled.span`
 
     &:hover{
         color: var(--color-positive);
+    }
+`;
+
+export const ExchangeAlt = styled(FaExchangeAlt)`
+    font-size: 24px;
+    margin: 0 1rem;
+
+    @media(max-width: 768px){
+        display: none;
     }
 `;

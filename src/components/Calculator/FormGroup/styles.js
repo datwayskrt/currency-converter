@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    width: clamp(200px, 450px,450px);
 
+    /* border: 2px solid green; */
+
+    @media(max-width: 768px){
+        width: 100%;
+    }
 `;
 
 export const Label = styled.label`
@@ -12,7 +18,8 @@ export const Label = styled.label`
 
 export const MoneyInput = styled.div`
     height: 68px;
-    width: 450px;
+    width: 100%;
+    /* width: 450px; */
     position: relative;
     margin-top: var(--space-unit);
 

@@ -41,6 +41,7 @@ const GlobalStyle = createGlobalStyle`
         --space-unit: 1rem;      //16px
         --space-md: 1.25rem;    //20px
         --space-lg: 2rem;       //32px
+        --space-x: 2.5rem;    //40px
         --space-xl: 3.25rem;    //52px
         --space-xxl: 5.25rem;   //84px
 
