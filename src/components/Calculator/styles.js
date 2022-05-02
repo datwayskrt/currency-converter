@@ -9,6 +9,15 @@ export const Container = styled.div`
     box-shadow: 0 8px 16px rgba(28,28,30,0.08);
     border-radius: var(--radius-small);
     padding: var(--space-x);
+
+    /* @media(max-width: 768px){
+        padding: var(--space-lg);
+    } */
+
+    @media(max-width: 480px){
+        padding: var(--space-xl) var(--space-unit);
+    }
+
     /* padding-bottom: var(--space-lg); */
 
     /* padding: var(--space-xl); */

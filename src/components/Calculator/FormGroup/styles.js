@@ -14,6 +14,11 @@ export const Label = styled.label`
     font-size: var(--font-size-20);
     color: var(--text-color-secondary);
     font-weight: 500;
+
+    /* @media(max-width: 480px){
+        font-size: var(--font-size-16);
+        font-weight: 600;
+    } */
 `;
 
 export const MoneyInput = styled.div`

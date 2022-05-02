@@ -2,9 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    /* z-index: -90; */
-    /* background-color: var(--color-background);
-    background-color: blue; */
     height: 100vh;
 `;
 
@@ -27,6 +24,14 @@ export const Main = styled.main`
     @media(max-width: 1200px){
         padding: 0 2rem;
     }
+
+    @media(max-width: 768px){
+        padding: 0.75rem;
+    }
+
+    @media(max-width: 480px){
+        padding: 0;
+    }
 `;
 
 export const Header = styled.header`
@@ -37,18 +42,35 @@ export const Header = styled.header`
     justify-content: space-between;
     margin: var(--space-lg);
 
-    /* border: 2px solid red; */
+    border: 2px solid red;
+
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+
+    @media(max-width: 480px){
+        padding: 0 var(--space-unit);
+    }
 `;
 
 export const Heading = styled.h1`
     max-width: 480px;
     font-size: var(--font-size-32);
     color: var(--text-color-primary);
-    font-weight: 500;
+    font-weight: 600;
+    
+    @media(max-width: 768px){
+        font-size: var(--font-size-28);
+    }
+
+    @media(max-width: 480px){
+        font-size: var(--font-size-24);
+    }
 `;
 
 export const Exchange = styled.p`
     font-size: var(--font-size-16);
     color: var(--text-color-secondary);
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 8px;
 `;

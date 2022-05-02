@@ -18,6 +18,10 @@ export const Container = styled.header`
     @media(max-width: 1200px){
         padding: 0 2rem;
     }
+
+    @media(max-width: 768px){
+        padding: 0.75rem;
+    }
 `;
 
 export const Nav = styled.nav`
