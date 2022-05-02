@@ -15,7 +15,7 @@ export const Container = styled.div`
     } */
 
     @media(max-width: 480px){
-        padding: var(--space-xl) var(--space-unit);
+        padding: var(--space-lg) var(--space-unit);
     }
 
     /* padding-bottom: var(--space-lg); */

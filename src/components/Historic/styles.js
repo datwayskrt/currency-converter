@@ -6,12 +6,26 @@ export const Container = styled.div`
     margin: var(--space-lg);
     
     /* border: 2px solid red; */
+
+    @media(max-width: 480px){
+        padding: 0 var(--space-unit);
+    }
 `;
 
 export const Heading = styled.h1`
     font-size: var(--font-size-32);
     color: var(--text-color-primary);
-    font-weight: 500;
+    font-weight: 600;
+
+    /* border: 2px solid red; */
+
+    @media(max-width: 768px){
+        font-size: var(--font-size-28);
+    }
+
+    @media(max-width: 480px){
+        font-size: var(--font-size-24);
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -27,6 +41,14 @@ export const Table = styled.table`
     border: none;
     border-collapse: collapse;
     table-layout: fixed;
+
+    @media(max-width: 768px){
+        font-size: var(--font-size-16);
+    }
+
+    @media(max-width: 480px){
+        font-size: var(--font-size-14);
+    }
 `;
 
 export const Tr = styled.tr`
@@ -43,18 +65,26 @@ export const Tr = styled.tr`
 
 export const Th = styled.th`
     border: none;
-    font-size: var(--font-size-20);
+    /* font-size: var(--font-size-20); */
     color: var(--text-color-primary);
     padding: var(--space-unit) 0;
 
     :nth-child(1) {
         padding: var(--space-unit);
     }
+
+    /* @media(max-width: 768px){
+        font-size: var(--font-size-14);
+    } */
+
+    /* @media(max-width: 480px){
+        font-size: var(--font-size-24);
+    } */
 `;
 
 export const Td = styled.td`
     border: none;
-    font-size: var(--font-size-20);
+    /* font-size: var(--font-size-20); */
     color: var(--text-color-tertiary);
     font-weight: 500;
     padding: var(--space-unit) 0;

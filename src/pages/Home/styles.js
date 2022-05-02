@@ -42,7 +42,7 @@ export const Header = styled.header`
     justify-content: space-between;
     margin: var(--space-lg);
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     @media(max-width: 768px){
         flex-direction: column;

@@ -13,7 +13,7 @@ export const Container = styled.header`
     /* background-color: #FAFAFA; */
     /* height: ${props => props.width >= 920 ? '100px' : '65px'}; */
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     @media(max-width: 1200px){
         padding: 0 2rem;
@@ -33,7 +33,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     /* height: ${props => props.width >= 920 ? '65%' : '100%'}; */
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
 `;
 
 // export const Label = styled.p`

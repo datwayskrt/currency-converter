@@ -27,52 +27,52 @@ const Historic = () => {
                   <Th>Estado</Th>
               </Tr>
               <Tr>
-                  <Td>12-04-2022</Td>
+                  <Td>12/04/22</Td>
                   <Td>100</Td>
                   <Td>45000.00</Td>
-                  <Td>-0.1234</Td>
+                  <Td>-0.1%</Td>
                   <Td><BsCaretDownFill color='#E47070' /></Td>
               </Tr>
               <Tr>
-                  <Td>13-04-2022</Td>
+                  <Td>13/04/22</Td>
                   <Td>100</Td>
                   <Td>45000.00</Td>
-                  <Td>+0.1234</Td>
+                  <Td>+0.3%</Td>
                   <Td><BsCaretUpFill color='#10AC84' /></Td>
               </Tr>
               <Tr>
-                  <Td>14-04-2022</Td>
+                  <Td>14/04/22</Td>
                   <Td>100</Td>
                   <Td>45000.00</Td>
-                  <Td>-0.1234</Td>
+                  <Td>-0.4%</Td>
                   <Td><BsCaretDownFill color='#E47070' /></Td>
               </Tr>
               <Tr>
-                  <Td>15-04-2022</Td>
+                  <Td>15/04/22</Td>
                   <Td>100</Td>
                   <Td>45000.00</Td>
-                  <Td>-0.1234</Td>
+                  <Td>-0.1%</Td>
                   <Td><BsCaretDownFill color='#E47070' /></Td>
               </Tr>
               <Tr>
-                  <Td>16-04-2022</Td>
+                  <Td>16/04/22</Td>
                   <Td>100</Td>
                   <Td>45000.00</Td>
-                  <Td>-0.1234</Td>
+                  <Td>-0.1%</Td>
                   <Td><BsCaretDownFill color='#E47070' /></Td>
               </Tr>
               <Tr>
-                  <Td>17-04-2022</Td>
+                  <Td>1/-04/22</Td>
                   <Td>100</Td>
                   <Td>45000.00</Td>
-                  <Td>+0.1234</Td>
+                  <Td>+0.2%</Td>
                   <Td><BsCaretUpFill color='#10AC84' /></Td>
               </Tr>
               <Tr>
-                  <Td>18-04-2022</Td>
+                  <Td>18/04/22</Td>
                   <Td>100</Td>
                   <Td>45000.00</Td>
-                  <Td>-0.1234</Td>
+                  <Td>-0.1%</Td>
                   <Td><BsCaretDownFill color='#E47070' /></Td>
               </Tr>
           </Table>
