@@ -65,29 +65,17 @@ export const Tr = styled.tr`
 
 export const Th = styled.th`
     border: none;
-    /* font-size: var(--font-size-20); */
     color: var(--text-color-primary);
     padding: var(--space-unit) 0;
 
     :nth-child(1) {
         padding: var(--space-unit);
     }
-
-    /* @media(max-width: 768px){
-        font-size: var(--font-size-14);
-    } */
-
-    /* @media(max-width: 480px){
-        font-size: var(--font-size-24);
-    } */
 `;
 
 export const Td = styled.td`
     border: none;
-    /* font-size: var(--font-size-20); */
     color: var(--text-color-tertiary);
     font-weight: 500;
     padding: var(--space-unit) 0;
-
-    /* border: 2px solid red; */
 `;

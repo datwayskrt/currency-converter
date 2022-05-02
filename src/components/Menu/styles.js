@@ -10,8 +10,6 @@ export const Container = styled.header`
     flex-direction: column;
     align-items: center;
     background-color: var(--color-background-secondary);
-    /* background-color: #FAFAFA; */
-    /* height: ${props => props.width >= 920 ? '100px' : '65px'}; */
 
     /* border: 2px solid red; */
 
@@ -31,9 +29,12 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* height: ${props => props.width >= 920 ? '65%' : '100%'}; */
 
     /* border: 2px solid green; */
+
+    @media (max-width: 480px){
+        height: 40px;
+    }
 `;
 
 // export const Label = styled.p`
