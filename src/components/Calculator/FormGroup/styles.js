@@ -1,7 +1,23 @@
 import styled from "styled-components";
 
+export const Div = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    /* border: 2px solid red; */
+
+    @media(max-width: 768px){
+        flex-direction: column;
+        gap: var(--space-x);
+    }
+
+`;
+
 export const Container = styled.div`
-    width: clamp(200px, 450px,450px);
+    width: clamp(200px, 480px, 480px);
 
     /* border: 2px solid green; */
 

@@ -31,8 +31,8 @@ const Home = () => {
                 </Header>
                 
                 <Calculator/>
-                <HowToUse/>
                 <Historic/>
+                <HowToUse/>
                 <About/>
             </Main>
         </Container>

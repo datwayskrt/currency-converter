@@ -1,7 +1,4 @@
-import React from 'react'
-
-// import { FaExchangeAlt } from 'react-icons/fa'
-// import { CgArrowsExchangeAlt } from 'react-icons/cg'
+import React, {useState} from 'react'
 
 import {
     Container,
@@ -20,33 +17,40 @@ import {
 import FormGroup from './FormGroup'
 
 const Calculator = () => {
-  return (
-    <Container>
-        <Form>
-            <FormGroup/>
-            <Reverse>
-                <ExchangeAlt />
-                {/* <CgArrowsExchangeAlt size={36} /> */}
-            </Reverse>
-            <FormGroup/>
-        </Form>
 
-        <Bottom>
-            <LeftSide>
-                <SpanGroup>
-                    <Span>1.00 USD = </Span>
-                    <Span>448.92 </Span>
-                    <Span>AOA</Span>
-                </SpanGroup>
+    const [inputAmount,setInputAmout] = useState(2);
 
-                <AddNewField>
-                    <Plus>+</Plus>
-                    <Label>Adicionar novo campo de conversão</Label>
-                </AddNewField>
-            </LeftSide>
-        </Bottom>
-    </Container>
-  )
+    const AddInput = () => inputAmount < 4 ? setInputAmout(inputAmount+1) : null;
+        
+    console.log(inputAmount)
+
+    return (
+        <Container>
+            <FormGroup amount={inputAmount} />
+            {/* <Form>
+                <Reverse>
+                    <ExchangeAlt />
+                    <CgArrowsExchangeAlt size={36} />
+                </Reverse>
+                <FormGroup/>
+            </Form> */}
+
+            <Bottom>
+                <LeftSide>
+                    <SpanGroup>
+                        <Span>1.00 USD = </Span>
+                        <Span>448.92 </Span>
+                        <Span>AOA</Span>
+                    </SpanGroup>
+
+                    <AddNewField onClick={AddInput}>
+                        <Plus>+</Plus>
+                        <Label>Adicionar novo campo de conversão</Label>
+                    </AddNewField>
+                </LeftSide>
+            </Bottom>
+        </Container>
+    )
 }
 
 export default Calculator

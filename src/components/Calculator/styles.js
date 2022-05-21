@@ -15,18 +15,18 @@ export const Container = styled.div`
     }
 `;
 
-export const Form = styled.form`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+// export const Form = styled.form`
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
 
-    /* border: 2px solid red; */
+//     /* border: 2px solid red; */
 
-    @media(max-width: 768px){
-        flex-direction: column;
-        gap: var(--space-x);
-    }
-`;
+//     @media(max-width: 768px){
+//         flex-direction: column;
+//         gap: var(--space-x);
+//     }
+// `;
 
 export const Reverse = styled.div`
     margin-bottom: -3rem;
